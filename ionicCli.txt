@@ -1,0 +1,64 @@
+======= ionic via terminal ======
+
+O ionic é um framework front end em js
+tem a mesma estrutura do angular
+basicamente você decide em qual dos dois 
+irá iniciar o projeto
+Esquece o velho mundo das páginas estáticas em
+html e js separado(agora é tudo js integrado)
+
+1º
+Crie uma pasta que vai guardar o projeto
+Se não tiver o node js instale (no windows baixe o 
+.exe no linux só digitar = apt-get install nodejs
+entre na pasta do projeto pelo terminal
+o npm é um gerente de pacotes nativo do node
+
+2º
+digite no terminal
+npm install ionic
+Vai instalar os pacotes do ionic nessa pasta
+Digite na linha de comando
+ionic
+as flags e comandos mais importantes além da versão vão aparecer
+
+3º
+iniciando o projeto
+digite no terminal ainda
+ionic start 
+nessa hora ele vai te pedir um nome do projeto e um
+framework angular ou react
+também vai dar 4 opções
+de templates básicas
+prossiga
+
+4º
+Saída no terminal no fim
+[INFO] Next Steps:
+
+       - Go to your newly created project: cd .\nomeDoProjeto
+       - Run ionic serve within the app directory to see your app
+       - Build features and components: https://ion.link/scaffolding-docs
+       - Run your app on a hardware or virtual device: https://ion.link/running-docs
+5°
+Rodando a aplicação
+ainda na mesma pasta
+ionic serve
+
+Saída
+[INFO] Development server running!
+
+       Local: http://localhost:8100
+
+       Use Ctrl+C to quit this process
+
+[INFO] Browser window opened to http://localhost:8100!
+
+[ng] √ Browser application bundle generation complete.
+[ng] 61 unchanged chunks
+[ng] Build at: 2021-08-20T20:36:37.029Z - Hash: 17704445c304e504fab4 - Time: 1059ms
+[ng] √ Compiled successfully.
+
+6º
+Acesse o endereço local
+sua aplicação base tá lá agora só alterar os arquivos
